@@ -3,26 +3,28 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:orientation="vertical"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
     <Space
-        android:layout_width="match_parent"
-        android:layout_height="127dp" />
+        android:id="@+id/spacing"
+        android:layout_width="235dp"
+        android:layout_height="434dp"
+        android:layout_weight="1"
+        android:visibility="visible" />
 
     <android.support.v7.widget.GridLayout
         android:id="@+id/gridd"
-        android:layout_width="wrap_content"
-        android:layout_height="466dp"
+        android:layout_width="412dp"
+        android:layout_height="297dp"
         android:layout_gravity="center"
         android:layout_weight="1"
         android:visibility="visible">
 
         <Button
             android:id="@+id/button"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
             android:fontFamily="sans-serif-black"
             android:onClick="tapped"
             android:textSize="50sp"
@@ -32,8 +34,8 @@
 
         <Button
             android:id="@+id/button2"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
             android:onClick="tapped"
             android:textSize="50sp"
             android:textStyle="bold"
@@ -42,8 +44,8 @@
 
         <Button
             android:id="@+id/button3"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
             android:onClick="tapped"
             android:textSize="50sp"
             android:textStyle="bold"
@@ -52,8 +54,8 @@
 
         <Button
             android:id="@+id/button4"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
             android:onClick="tapped"
             android:textSize="50sp"
             android:textStyle="bold"
@@ -62,8 +64,8 @@
 
         <Button
             android:id="@+id/button5"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
             android:onClick="tapped"
             android:textSize="50sp"
             android:textStyle="bold"
@@ -72,8 +74,8 @@
 
         <Button
             android:id="@+id/button8"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
             android:onClick="tapped"
             android:textSize="50sp"
             android:textStyle="bold"
@@ -82,8 +84,8 @@
 
         <Button
             android:id="@+id/button9"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
             android:onClick="tapped"
             android:textSize="50sp"
             android:textStyle="bold"
@@ -92,8 +94,8 @@
 
         <Button
             android:id="@+id/button10"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
             android:onClick="tapped"
             android:textSize="50sp"
             android:textStyle="bold"
@@ -102,8 +104,8 @@
 
         <Button
             android:id="@+id/button11"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
             android:onClick="tapped"
             android:textSize="50sp"
             android:textStyle="bold"
@@ -121,21 +123,26 @@
 
     </android.support.v7.widget.GridLayout>
 
+    <TextView
+        android:id="@+id/winText"
+        android:layout_width="422dp"
+        android:layout_height="106dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="80sp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
     <Button
         android:id="@+id/resetButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:layout_marginRight="30dp"
+        android:layout_weight="0"
         android:onClick="resetClicked"
         android:text="Reset"
-        android:textSize="18sp" />
+        android:textSize="18sp"
+        android:visibility="visible" />
 
-    <TextView
-        android:id="@+id/winText"
-        android:layout_width="match_parent"
-        android:layout_height="106dp"
-        android:gravity="center"
-        android:textSize="80sp"
-        android:textStyle="bold"
-        android:visibility="gone" />
 </LinearLayout>
