@@ -10,14 +10,14 @@ Has all the main functionality plus:
 
 Main Activity screenshots: 
 
-![Main Activity Portrait](/docs/tictacPlayPortrait.png "Main Activity screen Portrait")
+![Main Activity Portrait](/docs/tictacPlayPortrait.png "Main Activity screen Portrait") ![Main Activity Landscape](/docs/tictacPlayLandscape.png "Main Activity screen Landscape")
 
-![Main Activity Landscape](/docs/tictacPlayLandscape.png "Main Activity screen Landscape")
+
 
 
 Reset Screen screenshots:
 
-![Main Activity (reset) Portrait](/docs/tictacWinPortrait.png "Reset screen Portrait")
+![Main Activity (reset) Portrait](/docs/tictacWinPortrait.png "Reset screen Portrait") ![Main Activity (reset) Landscape](/docs/tictacwinLandscape.png "Reset screen Landscape")
 
-![Main Activity (reset) Landscape]("Reset screen Landscape")
+
 
