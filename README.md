@@ -9,12 +9,14 @@ Has all the main functionality
 + uses images instead of text to represent the state of the board
 
 Main Activity screenshots: 
+
 ![Main Activity Portrait](https://raw.githubusercontent.com/Toekaan/Friendstr/docs.img.png)
 
 ![Main Activity Landscape](https://raw.githubusercontent.com/Toekaan/Friendstr/docs.img.png)
 
 
-Reset Screen screenshots
+Reset Screen screenshots:
+
 ![Main Activity Portrait](https://raw.githubusercontent.com/Toekaan/Friendstr/docs.img.png)
 
 ![Main Activity Landscape](https://raw.githubusercontent.com/Toekaan/Friendstr/docs.img.png)
