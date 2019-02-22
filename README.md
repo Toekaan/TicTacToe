@@ -1,4 +1,5 @@
 # TicTacToe
+<pre>
 a fun, unwinnable game.
 
 Has all the main functionality plus:
@@ -21,6 +22,5 @@ Main Activity screenshots:
 Reset Screen screenshots:
 
 ![Main Activity (reset) Portrait](/docs/tictacWinPortrait.png "Reset screen Portrait")      ![Main Activity (reset) Landscape](/docs/tictacWinLandscape.png "Reset screen Landscape")
-
-
+</pre>
 
