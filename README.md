@@ -19,5 +19,5 @@ Reset Screen screenshots:
 
 ![Main Activity Portrait](https://raw.githubusercontent.com/Toekaan/TicTacToe/tictacWinPortrait.png)
 
-![Main Activity Landscape](https://raw.githubusercontent.com/Toekaan/TicTacToe/tictacWinLandscape.png)
+![Main Activity Landscape](TicTacToe/docs/tictacPlayLandscape.png)
 
