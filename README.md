@@ -15,6 +15,9 @@ Main Activity screenshots:
 
 
 
+
+
+
 Reset Screen screenshots:
 
 ![Main Activity (reset) Portrait](/docs/tictacWinPortrait.png "Reset screen Portrait")      ![Main Activity (reset) Landscape](/docs/tictacWinLandscape.png "Reset screen Landscape")
