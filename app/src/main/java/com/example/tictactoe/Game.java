@@ -1,5 +1,6 @@
 package com.example.tictactoe;
 
+import android.service.quicksettings.Tile;
 import android.util.Log;
 
 import java.io.Serializable;
@@ -14,6 +15,10 @@ public class Game implements Serializable
 
     private int movesPlayed;
     private Boolean gameOver;
+
+    public Boolean getGameOver(){
+        return gameOver;
+    }
 
 
     /*public void setGameOver(Boolean bool)
@@ -62,15 +67,18 @@ public class Game implements Serializable
     // decides whether or not a player has won or the game has been drawn.
     public GameState won()
     {
+        gameOver = false;
         // check horizontal winner set
         for (int i = 0; i < BOARD_SIZE; i++)
         {
             if (board[i][0] == TileState.CROSS && board[i][1] == TileState.CROSS && board[i][2] == TileState.CROSS)
             {
+                gameOver = true;
                 return GameState.PLAYER_ONE;
             }
             else if (board[i][0] == TileState.CIRCLE && board[i][1] == TileState.CIRCLE && board[i][2] == TileState.CIRCLE)
             {
+                gameOver = true;
                 return GameState.PLAYER_TWO;
             }
         }
@@ -78,10 +86,12 @@ public class Game implements Serializable
         for (int i = 0; i < 3; i++) {
             if (board[0][i] == TileState.CROSS && board[1][i] == TileState.CROSS && board[2][i] == TileState.CROSS)
             {
+                gameOver = true;
                 return GameState.PLAYER_ONE;
             }
             else if (board[0][i] == TileState.CIRCLE && board[1][i] == TileState.CIRCLE && board[2][i] == TileState.CIRCLE)
             {
+                gameOver = true;
                 return GameState.PLAYER_TWO;
             }
         }
@@ -89,11 +99,13 @@ public class Game implements Serializable
         if ((board[0][0] == TileState.CROSS && board[1][1] == TileState.CROSS && board[2][2] == TileState.CROSS)
                 || (board[0][2] == TileState.CROSS && board[1][1] == TileState.CROSS && board[2][0] == TileState.CROSS))
         {
+            gameOver = true;
             return GameState.PLAYER_ONE;
         }
         else if ((board[0][0] == TileState.CIRCLE && board[1][1] == TileState.CIRCLE && board[2][2] == TileState.CIRCLE)
             || (board[0][2] == TileState.CIRCLE && board[1][1] == TileState.CIRCLE && board[2][0] == TileState.CIRCLE))
         {
+            gameOver = true;
             return GameState.PLAYER_TWO;
         }
         // check for draw
@@ -112,7 +124,11 @@ public class Game implements Serializable
                 }
             }
         }
+        gameOver = true;
         return GameState.DRAW;
+    }
+    public TileState[][] getBoard(){
+        return board;
     }
 
 }

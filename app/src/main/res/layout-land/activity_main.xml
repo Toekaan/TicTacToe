@@ -18,11 +18,12 @@
         android:layout_width="412dp"
         android:layout_height="297dp"
         android:layout_gravity="center"
+        android:layout_marginTop="20dp"
         android:layout_weight="1"
         android:visibility="visible">
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/button00"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:fontFamily="sans-serif-black"
@@ -33,7 +34,7 @@
             app:layout_row="0" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/button01"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:onClick="tapped"
@@ -43,7 +44,7 @@
             app:layout_row="0" />
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/button02"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:onClick="tapped"
@@ -51,46 +52,6 @@
             android:textStyle="bold"
             app:layout_column="2"
             app:layout_row="0" />
-
-        <Button
-            android:id="@+id/button4"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:onClick="tapped"
-            android:textSize="50sp"
-            android:textStyle="bold"
-            app:layout_column="0"
-            app:layout_row="1" />
-
-        <Button
-            android:id="@+id/button5"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:onClick="tapped"
-            android:textSize="50sp"
-            android:textStyle="bold"
-            app:layout_column="1"
-            app:layout_row="1" />
-
-        <Button
-            android:id="@+id/button8"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:onClick="tapped"
-            android:textSize="50sp"
-            android:textStyle="bold"
-            app:layout_column="2"
-            app:layout_row="1" />
-
-        <Button
-            android:id="@+id/button9"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:onClick="tapped"
-            android:textSize="50sp"
-            android:textStyle="bold"
-            app:layout_column="0"
-            app:layout_row="2" />
 
         <Button
             android:id="@+id/button10"
@@ -99,11 +60,51 @@
             android:onClick="tapped"
             android:textSize="50sp"
             android:textStyle="bold"
+            app:layout_column="0"
+            app:layout_row="1" />
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:onClick="tapped"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            app:layout_column="1"
+            app:layout_row="1" />
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:onClick="tapped"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            app:layout_column="2"
+            app:layout_row="1" />
+
+        <Button
+            android:id="@+id/button20"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:onClick="tapped"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            app:layout_column="0"
+            app:layout_row="2" />
+
+        <Button
+            android:id="@+id/button21"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:onClick="tapped"
+            android:textSize="50sp"
+            android:textStyle="bold"
             app:layout_column="1"
             app:layout_row="2" />
 
         <Button
-            android:id="@+id/button11"
+            android:id="@+id/button22"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:onClick="tapped"
