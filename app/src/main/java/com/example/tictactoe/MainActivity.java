@@ -167,6 +167,7 @@ public class MainActivity extends AppCompatActivity
             }
         }
 
+
     public void resetClicked(View view)
     {
         game = new Game();
@@ -174,6 +175,7 @@ public class MainActivity extends AppCompatActivity
         setContentView(R.layout.activity_main);
 
     }
+
 
     @Override
     protected void onSaveInstanceState(Bundle outState)
@@ -191,6 +193,7 @@ public class MainActivity extends AppCompatActivity
         android.support.v7.widget.GridLayout grid = findViewById(R.id.gridd);
         outState.putInt("visibilityLayout", grid.getVisibility());
     }
+
 
     @Override
     protected void onRestoreInstanceState(Bundle savedInstanceState)
